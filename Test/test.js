@@ -1,8 +1,7 @@
-import { assert } from "chai";
-import multiply from "../multiply.js";
-
-describe("multiply", () => {
-  it("should return 1 when 1 * 1", () => {
-    assert.equal(multiply(1, 1), 1);
-  });
+const assertEqual = require('assert');
+const multiply = require('../multiply');
+describe('multiply', ()=> {
+    it('should return 1 when we multioly 1*1', () => {
+assertEqual(multiply(1, 1), 1);
+});
 });
