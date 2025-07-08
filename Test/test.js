@@ -38,11 +38,3 @@ describe('Multiplication', () => {
     assert.equal(multiply(4, 4), 16); 
   });
 });
-
-// Fifth test cycle
-
-describe('Multiplication', () => {
-  it('multiply(23, 45) = 23 * 45', () => {
-    assert.equal(multiply(23, 45), 23 * 45); 
-  });
-});
