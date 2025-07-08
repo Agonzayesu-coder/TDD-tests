@@ -7,11 +7,11 @@ const { multiply } = require('../multiply');
 
 //First test cycle
 
-// describe('Multiplication', () => {
-//   it('multiply(1, 1) = 1', () => {
-//     assert.equal(multiply(1, 1), 1);  
-//   });
-// });
+describe('Multiplication', () => {
+  it('multiply(1, 1) = 1', () => {
+    assert.equal(multiply(1, 1), 1);  
+  });
+});
 
 
 // Second test cycle
