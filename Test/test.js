@@ -21,3 +21,12 @@ describe('Multiplication', () => {
     assert.equal(multiply(2, 2), 4); 
   });
 });
+
+
+// Third test cycle
+
+describe('Multiplication', () => {
+  it('multiply(3, 3) = 9', () => {
+    assert.equal(multiply(3, 3), 9); 
+  });
+});
