@@ -1,15 +1,23 @@
-// const assertEqual = require('assert');  
-// const { multiply } = require('../multiply'); 
-// describe('multiply', () => {
-//   it('Should return 1 when multiplying 1 and 1', () => {
-//     assertEqual(multiply(1, 1), 1);  
+//Tripplets: Alex, Gideon, Grace
+ // This is a test file for the multiply function
+
+
+const assert = require('assert');  
+const { multiply } = require('../multiply'); 
+
+//First test cycle
+
+// describe('Multiplication', () => {
+//   it('multiply(1, 1) = 1', () => {
+//     assert.equal(multiply(1, 1), 1);  
 //   });
 // });
 
-const assertEqual = require('assert');  
-const { multiply } = require('../multiply'); 
-describe('multiply', () => {
-  it('Should return 4 when multiplying 2 and 2', () => {
-    assertEqual(multiply(2, 2),4);  
+
+// Second test cycle
+
+describe('Multiplication', () => {
+  it('multiply(2, 2) = 4', () => {
+    assert.equal(multiply(2, 2), 4); 
   });
 });
