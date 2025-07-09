@@ -3,7 +3,7 @@
 
 
 const assert = require('assert');  
-const { multiply } = require('../multiply'); 
+const { multiply } = require('./multiply'); 
 
 //First test cycle
 
