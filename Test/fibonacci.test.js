@@ -15,7 +15,12 @@ const { fibonacci } = require('./fibonacci');
     //second test cycle
         it('fibonacci(1) = 1', () => {
             assert.equal(fibonacci(1), 1);
-    });    
+    });   
+    
+    // Third test cycle
+        it('fibonacci(2) = 1', () => {
+            assert.equal(fibonacci(2), 1);
+    });
 });
 
     // Third test cycle
