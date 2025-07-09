@@ -19,11 +19,16 @@ const { fibonacci } = require('./fibonacci');
     
     // Third test cycle
         it('fibonacci(2) = 1', () => {
-            assert.equal(fibonacci(2), 1);
+            assert.equal(fibonacci(9), 34);
+    });
+
+    // Fourth test cycle
+        it('fibonacci(20) = 6765', () => {
+            assert.equal(fibonacci(20), 6765);
     });
 });
 
-    // Third test cycle
+
  
 
   
