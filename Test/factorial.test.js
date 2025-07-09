@@ -23,6 +23,14 @@ describe('Factorial', () => {
 // Third test cycle
 describe('Factorial',() => {
   it('factorial(4) = 24', () =>{
-    assert.equal(factorial(4),25)
+    assert.equal(factorial(4),24);
+  });
+});
+
+
+// Fourth test cycle
+describe('Factorial', () => {
+  it('factorial(100) = ', () => {
+    assert.equal(factorial(10), 3628800);  
   });
 });
