@@ -8,4 +8,4 @@ function fibonacci(n) {
 }
 //F(n) = F(n-1) + F(n-2)
 
-module.exports = { fibonacci };
+//module.exports = { fibonacci };
