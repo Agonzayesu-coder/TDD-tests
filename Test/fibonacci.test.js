@@ -10,6 +10,5 @@ describe('Fibonacci', () => {
   it('fibonacci(0) = 0', () => {
     assert.equal(fibonacci(0), 0);
   });
-
-
+  
   });
