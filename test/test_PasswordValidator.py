@@ -1,6 +1,6 @@
 
 import unittest
-from PasswordValidator import is_valid_password 
+from PasswordValidator import  
 
 class TestPasswordValidator(unittest.TestCase):
     def test_valid_password(self):
@@ -20,7 +20,7 @@ class TestPasswordValidator(unittest.TestCase):
 
     def test_invalid_password_too_short(self):
         self.assertFalse(is_valid_password("Xela1.A"))
-        
+
 
 if __name__ == '__main__':
     unittest.main()
